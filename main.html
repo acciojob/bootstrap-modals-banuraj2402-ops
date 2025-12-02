@@ -3,20 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Modal Assignment</title>
-    
-  
     <script src="https://cdn.tailwindcss.com"></script>
 
-  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col items-center pt-20 p-4">
-  
+    <!-- Main Content Container for the button -->
     <div class="container max-w-2xl text-center bg-white p-8 rounded-xl shadow-xl">
         <h1 class="text-3xl font-bold mb-6 text-gray-800">Modal Interface Demo</h1>
-        
-  
+   
         <button
             id="open-modal"
             class="btn btn-primary btn-lg rounded-xl shadow-md hover:shadow-lg transition duration-300"
@@ -26,9 +21,6 @@
             Click to Open Modal
         </button>
     </div>
-
-
-  
     <div
         class="modal fade"
         id="newton-modal"
@@ -36,25 +28,21 @@
         aria-labelledby="newton-modal-label"
         aria-hidden="true"
     >
-  
+       
         <div class="modal-dialog modal-dialog-centered"> 
             <div class="modal-content rounded-xl shadow-2xl border-2 border-indigo-200">
 
-  
+               
                 <div class="modal-header bg-indigo-500 text-white border-b-0 rounded-t-xl">
                     <h5 class="modal-title font-bold" id="newton-modal-label">New Modal</h5>
-  
+                   
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-
-  
                 <div class="modal-body text-gray-700 p-6">
-                    A Bootstrap modal is a lightweight, multi-purpose, and customizable popup window component provided by the Bootstrap framework. It is used to display various content like forms, alerts, images, videos, or additional information, overlaying the main page content.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
                 </div>
-
-  
                 <div class="modal-footer justify-center bg-gray-50 rounded-b-xl border-t-0">
-  
+         
                     <button 
                         type="button" 
                         class="btn btn-secondary rounded-lg px-4 py-2 hover:bg-gray-300 transition duration-150" 
@@ -66,9 +54,6 @@
             </div>
         </div>
     </div>
-
-
-  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
